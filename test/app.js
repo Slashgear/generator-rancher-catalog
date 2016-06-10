@@ -3,7 +3,7 @@ var path = require('path');
 var assert = require('yeoman-assert');
 var helpers = require('yeoman-test');
 
-describe('generator-rancher-catalogue:app', function () {
+describe('generator-rancher-catalog:app', function () {
   const clusterTypes = ['swarm', 'mesos', 'kubernetes', 'cattle'];
   const name = 'test';
   before(function () {
@@ -30,7 +30,7 @@ describe('generator-rancher-catalogue:app', function () {
         `${prefix}templates/${name}/0/rancher-compose.yml`,
         `${prefix}templates/${name}/config.yml`,
         `${prefix}templates/${name}/README.md`,
-        `${prefix}templates/${name}/yeoman-logo.svg`
+        `${prefix}templates/${name}/catalogIcon-${name}.svg`
       ]);
     });
   });

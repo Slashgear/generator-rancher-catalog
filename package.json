@@ -1,8 +1,8 @@
 {
-  "name": "generator-rancher-catalogue",
-  "version": "0.0.0",
-  "description": "Yeoman generator for creating Rancher Catalogue Entry",
-  "homepage": "https://github.com/Slashgear/generator-rancher-catalogue",
+  "name": "generator-rancher-catalog",
+  "version": "0.1.1",
+  "description": "Yeoman generator for creating Rancher catalog Entry",
+  "homepage": "https://github.com/Slashgear/generator-rancher-catalog",
   "author": {
     "name": "Slashgear_",
     "email": "antoine395.caron@gmail.com",
@@ -42,7 +42,7 @@
       "mocha": true
     }
   },
-  "repository": "Slashgear/generator-rancher-catalogue",
+  "repository": "Slashgear/generator-rancher-catalog",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"

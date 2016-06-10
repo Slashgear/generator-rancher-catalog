@@ -7,13 +7,13 @@ module.exports = yeoman.Base.extend({
   prompting: function () {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the good ' + chalk.red('generator-rancher-catalogue') + ' generator!'
+      'Welcome to the good ' + chalk.red('generator-rancher-catalog') + ' generator!'
     ));
 
     var prompts = [{
       type: 'input',
       name: 'name',
-      message: 'What is the name of the catalogue entry?',
+      message: 'What is the name of the catalog entry?',
       default: this.appname
     }, {
       type: 'checkbox',
@@ -53,6 +53,10 @@ module.exports = yeoman.Base.extend({
       this.fs.copy(
         this.templatePath('templates'),
         this.destinationPath(`${prefix}templates/${this.props.name}`)
+      );
+      this.fs.copy(
+        this.templatePath('yeoman-logo.svg'),
+        this.destinationPath(`${prefix}templates/${this.props.name}/catalogIcon-${this.props.name}.svg`)
       );
     });
   }

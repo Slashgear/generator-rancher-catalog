@@ -1,22 +1,22 @@
-# generator-rancher-catalogue [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Yeoman generator for creating Rancher Catalogue
+# generator-rancher-catalog [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+> Yeoman generator for creating Rancher catalog
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-rancher-catalogue using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-rancher-catalog using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-rancher-catalogue
+npm install -g generator-rancher-catalog
 ```
 
 Then generate your new project:
 
 ```bash
-yo rancher-catalogue
+yo rancher-catalog
 ```
 
-Work is in progress, for the moment it only create the skuleton of the catalogue entry.
+Work is in progress, for the moment it only create the skuleton of the catalog entry.
 
 ## Getting To Know Yeoman
 
@@ -30,11 +30,11 @@ Work is in progress, for the moment it only create the skuleton of the catalogue
 MIT © [Slashgear_](http://slashgear.github.io/)
 
 
-[npm-image]: https://badge.fury.io/js/generator-rancher-catalogue.svg
-[npm-url]: https://npmjs.org/package/generator-rancher-catalogue
-[travis-image]: https://travis-ci.org/Slashgear/generator-rancher-catalogue.svg?branch=master
-[travis-url]: https://travis-ci.org/Slashgear/generator-rancher-catalogue
-[daviddm-image]: https://david-dm.org/Slashgear/generator-rancher-catalogue.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/Slashgear/generator-rancher-catalogue
-[coveralls-image]: https://coveralls.io/repos/Slashgear/generator-rancher-catalogue/badge.svg
-[coveralls-url]: https://coveralls.io/r/Slashgear/generator-rancher-catalogue
+[npm-image]: https://badge.fury.io/js/generator-rancher-catalog.svg
+[npm-url]: https://npmjs.org/package/generator-rancher-catalog
+[travis-image]: https://travis-ci.org/Slashgear/generator-rancher-catalog.svg?branch=master
+[travis-url]: https://travis-ci.org/Slashgear/generator-rancher-catalog
+[daviddm-image]: https://david-dm.org/Slashgear/generator-rancher-catalog.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/Slashgear/generator-rancher-catalog
+[coveralls-image]: https://coveralls.io/repos/Slashgear/generator-rancher-catalog/badge.svg
+[coveralls-url]: https://coveralls.io/r/Slashgear/generator-rancher-catalog
