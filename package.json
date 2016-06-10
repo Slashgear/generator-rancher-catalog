@@ -1,6 +1,6 @@
 {
   "name": "generator-rancher-catalog",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Yeoman generator for creating Rancher catalog Entry",
   "homepage": "https://github.com/Slashgear/generator-rancher-catalog",
   "author": {
