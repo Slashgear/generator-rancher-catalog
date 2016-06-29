@@ -26,12 +26,16 @@ describe('generator-rancher-catalog:app', function () {
     clusterTypes.forEach(function (it) {
       const prefix = it === 'cattle' ? '' : `${it}-`;
       assert.file([
-        `${prefix}templates/${name}/0/docker-compose.yml`,
         `${prefix}templates/${name}/0/rancher-compose.yml`,
         `${prefix}templates/${name}/config.yml`,
         `${prefix}templates/${name}/README.md`,
         `${prefix}templates/${name}/catalogIcon-${name}.svg`
       ]);
+      if (it !== 'kubernetes') {
+        assert.file([
+          `${prefix}templates/${name}/0/docker-compose.yml`
+        ]);
+      }
     });
   });
 });

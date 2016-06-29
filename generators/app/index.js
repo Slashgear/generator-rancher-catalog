@@ -51,7 +51,7 @@ module.exports = yeoman.Base.extend({
     this.props.clusterTypes.forEach(name => {
       const prefix = name === 'cattle' ? '' : `${name}-`;
       this.fs.copy(
-        this.templatePath('templates'),
+        this.templatePath(`${name}`),
         this.destinationPath(`${prefix}templates/${this.props.name}`)
       );
       this.fs.copy(
